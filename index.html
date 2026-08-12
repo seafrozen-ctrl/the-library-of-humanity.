@@ -201,7 +201,7 @@ The Library of Humanity preserves thoughts, experiences, warnings, hopes and wis
 </div>
 
 </main>
-<sect<section id="library" style="padding:80px 24px; background:#27231f; color:#f7f3ea; text-align:center;">
+<section id="library" style="padding:80px 24px; background:#27231f; color:#f7f3ea; text-align:center;">
 
   <p style="letter-spacing:3px; font-size:13px; margin-bottom:20px;">
 
@@ -213,18 +213,183 @@ The Library of Humanity preserves thoughts, experiences, warnings, hopes and wis
 
     Voices for the Future
 
-  <p style="max-width:650px; margin:0 auto 40px; text-align:center;">
-  A growing collection of personal messages... preserved for generations we will never meet.
-</p>
+  </h2>
 
+  <p style="max-width:650px; margin:0 auto 45px; font-size:18px;">
 
+    A growing collection of personal messages, thoughts and lessons
 
-  <!-- BULGARIAN VERSION -->
+    preserved for generations we will never meet.
 
-m<div data-lang="bg" style="max-width:720px; margin:0 auto; padding:20px;">
-  <p style="font-size:12px; letter-spacing:2px;">MESSAGE №001</p>
-</div>
+  </p>
+
+  <d<div style="max-width:720px; margin:50px auto 0; text-align:left;
+
+            border-top:1px solid #777; padding-top:40px;">
+
+  <p style="font-size:12px; letter-spacing:3px; opacity:.65;">
+
+    MESSAGE №001
+
+  </p>
+
+  <h3 style="font-size:32px; font-weight:normal; margin:12px 0 5px;">
+
+    Emil Kulinski
+
+  </h3>
+
+  <p style="font-size:14px; opacity:.65; margin-bottom:35px;">
+
+    Founder · The Library of Humanity · Varna, Bulgaria · 2026
+
+  </p>
+
+  <div data-lang="bg"style="font-size:18px; line-height:1.8;">
+
+    <p style="margin-bottom:22px;">
+
+      „Нямайте илюзии – ние не ви оставяме по-добър свят. Оставяме ви по-замърсен, по-шумен и по-самотен.
 
     </p>
 
-    <h3 style="font-size:32px; font-weight:normal; margin:12px 0 5px;">
+    <p style="margin-bottom:22px;">
+
+      Но ви оставяме и нещо друго – знанието, че болката ви е същата като нашата. Че сте тъгували за същите неща – за любов, която си отива, за деца, които израстват, за тишина, която не идва.
+
+    </p>
+
+    <p style="margin-bottom:22px;">
+
+      Ние имахме всичко – технологии, лекарства, интернет – и въпреки това умирахме от самота. Вие може би имате още повече. Но единственият лек не е в джаджите, а в това да седнеш до някого и да мълчиш заедно.
+
+    </p>
+
+    <p style="margin-bottom:22px;">
+
+      Прощавайте си бързо. Прегръщайте бавно. И не вярвайте на никой, който ви казва, че страхът е път напред.
+
+    </p>
+
+    <p style="margin-bottom:22px;">
+
+      Ние се страхувахме прекалено много. От терори, от икономики, от съседи. А трябваше да се страхуваме само от едно – че няма да сме казали навреме: обичам те.
+
+    </p>
+
+    <p style="font-size:23px; font-style:italic; margin-top:35px;">
+
+      Това е. Останалото са подробности.“
+
+    </p>
+<div data-lang="en" style="margin-top:60px; padding-top:40px; border-top:1px solid #777;">
+
+  <p style="font-size:12px; letter-spacing:3px; opacity:.65; margin-bottom:30px;">
+
+    ENGLISH TRANSLATION
+
+  </p>
+
+  <p style="margin-bottom:22px;">
+
+    “Have no illusions — we are not leaving you a better world.
+
+    We are leaving you one that is more polluted, noisier, and lonelier.
+
+  </p>
+
+  <p style="margin-bottom:22px;">
+
+    But we are leaving you something else as well — the knowledge that
+
+    your pain is the same as ours. That you have grieved over the same
+
+    things — love that fades away, children who grow up, silence that
+
+    never comes.
+
+  </p>
+
+  <p style="margin-bottom:22px;">
+
+    We had everything — technology, medicine, the internet — and yet
+
+    we were still dying of loneliness. Perhaps you have even more.
+
+    But the only cure is not in gadgets. It is in sitting beside someone
+
+    and being silent together.
+
+  </p>
+
+  <p style="margin-bottom:22px;">
+
+    Forgive quickly. Hug slowly. And do not believe anyone who tells you
+
+    that fear is the way forward.
+
+  </p>
+
+  <p style="margin-bottom:22px;">
+
+    We were afraid far too much. Of terror, of economies, of neighbors.
+
+    But there was only one thing we should have feared — that we might
+
+    not say in time: I love you.
+
+  </p>
+
+  <p style="font-size:23px; font-style:italic; margin-top:35px;">
+
+    That is all. Everything else is detail.”
+
+  </p>
+
+</div>
+  </div>
+
+  </div>
+
+</section>
+<div class="language-switch">
+
+  <a href="#bg">BG</a>
+
+  <span>|</span>
+
+  <a href="#en">EN</a>
+
+</div>
+<script>
+
+document.querySelectorAll('.language-switch a').forEach(function(link) {
+
+  link.addEventListener('click', function(e) {
+
+    e.preventDefault();
+
+    const lang = this.getAttribute('href').replace('#', '');
+
+    document.querySelectorAll('[data-lang]').forEach(function(el) {
+
+      el.style.display =
+
+        el.getAttribute('data-lang') === lang ? '' : 'none';
+
+    });
+
+  });
+
+});
+
+</script>
+
+
+
+
+
+</body>
+
+</html>
+
